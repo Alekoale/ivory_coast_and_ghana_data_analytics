@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -112,4 +113,4 @@ def main():
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
